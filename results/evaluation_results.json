@@ -1,0 +1,20 @@
+{
+  "llama_by_qwen": {
+    "consistency_score": 8,
+    "completeness_score": 9,
+    "factual_alignment_score": 10,
+    "comments": "The extracted data shows good consistency with the source text. All required fields were correctly extracted, and there are no factual errors or hallucinations. The completeness score is high due to only one missing field: 'GDP per capita'. The inconsistency score could be slightly lower for this missing field."
+  },
+  "qwen_by_phi": {
+    "consistency_score": 9,
+    "completeness_score": 8,
+    "factual_alignment_score": 10,
+    "comments": "The extracted data is largely consistent with the source text and factually aligned. It accurately represents key findings from each chapter of 'Community Empowerment and Human Development.' While it provides a comprehensive summary for most sections, there's room to enhance completeness by addressing more nuanced details within gender-specific indicators."
+  },
+  "phi_by_llama": {
+    "consistency_score": 6,
+    "completeness_score": 4,
+    "factual_alignment_score": 8,
+    "comments": "The extracted data contains some inconsistencies with the source text, particularly in the indicators section. However, the majority of the data is accurate and consistent. The incompleteness score is low due to the lack of required fields such as the full list of provinces and their corresponding HDI scores. Factual alignment is mostly accurate, but there are a few minor errors or unclear explanations in certain sections."
+  }
+}
